@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="img/eye.png">
+    <link rel="stylesheet" type="text/css" href="stile.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <header class="main-header clearfix">
+                <a href="index.html" id="logo">
+                    <h1>Editscanner</h1>
+                    <h2>I migliori editori per te!</h2>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> HOME</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="modulo">
+                <div class="content">
+                    <h1>Dubbi?</h1>
+                    <h3>Richiedi informazioni <br>Compila il modulo</h3>
+                    <form action="dati.php" sethod="post">
+                        <ul>
+                            <li class="uno">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="nome" class="testo" required="">
+                            </li>
+                            <li class="due">
+                                <label for="">Email</label>
+                                <input type="email" name="email" id="email" class="testo" required="">
+                            </li>
+                            <li class="tre">
+                                <label for="testo">Messaggio</label>
+                                <textarea name="testo" id="testo"></textarea>
+                            </li>
+                            <li class="quattro">
+
+                                <input type="submit" value="richiedi informazioni" class="pulsante">
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </section>
+</body>
+</html>
